@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ECTD" serializer_version="v1.0.0">
+ <VERSIONS>
+  <VERSION>
+   <ECTD VERSION="1.5">
+    <ATTRIBUTES>
+     <ETOBJ_GNDT>
+      <VERSION>00000001</VERSION>
+      <TWB_TITLE>ECATT-contaner test for unit tests</TWB_TITLE>
+      <SOFTCOMP/>
+      <TWB_DEP_RF/>
+      <TWB_DEP_RT/>
+      <TWB_STATUS>X</TWB_STATUS>
+      <TWB_RELE>N</TWB_RELE>
+      <FUSER></FUSER>
+      <FDATE></FDATE>
+      <LUSER></LUSER>
+      <LDATE></LDATE>
+      <LTIME></LTIME>
+      <REL_BAS_F/>
+      <REL_BAS_T/>
+      <SERVICE/>
+      <PVNR/>
+      <BACKUP/>
+     </ETOBJ_GNDT>
+     <ETOBJNOVER>
+      <NAME>ZECATT_CONTAINER_TEST</NAME>
+      <TYPE>ECTD</TYPE>
+      <TWB_RESP></TWB_RESP>
+      <TWB_DISTL>B</TWB_DISTL>
+      <TWB_EUBOBJ/>
+      <TWB_EUTYPE/>
+      <DEVCLASS></DEVCLASS>
+      <MASTERLANG>E</MASTERLANG>
+      <TADIR_RESP></TADIR_RESP>
+      <FRANGE>BC-DWB-TOO-UT</FRANGE>
+      <BCSET_MODE/>
+      <API_MODE/>
+      <COL_TSTOBJDATA/>
+      <NO_TRANSLATION/>
+     </ETOBJNOVER>
+     <ETOBJ_DOC>
+      <SEARCH_1/>
+      <SEARCH_2/>
+      <SEARCH_3/>
+      <SEARCH_4/>
+      <SEARCH_5/>
+      <SEARCH_6/>
+      <SEARCH_7/>
+      <SEARCH_8/>
+      <SEARCH_9/>
+      <SEARCH_10/>
+      <S_DOC_ID/>
+      <S_OBJ_ID/>
+      <S_DOC_TITL/>
+     </ETOBJ_DOC>
+     <ETOBJ_CNST>
+      <TWB_DEP_S/>
+      <TWB_DEPV_S/>
+      <TWB_DEP_L/>
+      <TWB_DEPV_L/>
+      <TWB_USE_A/>
+      <TWB_USE_P/>
+      <TWB_USE_H/>
+      <TWB_USE_E/>
+      <REUSE/>
+      <TWB_DEP_C/>
+      <TWB_DEP_VC/>
+      <TWB_DEP_F/>
+      <TWB_DEP_VF/>
+      <TWB_DEP_P/>
+      <TWB_DEP_VP/>
+      <TWB_DEP_DB/>
+      <TWB_DEPVDB/>
+      <TWB_WKREQ>0.0</TWB_WKREQ>
+      <TWB_WKUNIT>MIN</TWB_WKUNIT>
+      <TWB_PRIO>3</TWB_PRIO>
+     </ETOBJ_CNST>
+     <ETSC_TSYS>
+      <SYSTEMDATA/>
+      <TESTSYSTEM/>
+     </ETSC_TSYS>
+     <ETSYS_COMP_TABTYPE/>
+     <ETSYS_REL_TABTYPE/>
+     <ETBF_OBJ_TABTYPE/>
+     <ETBF_VER_TABTYPE/>
+    </ATTRIBUTES>
+    <PARAMETERS>
+     <ETPAR_GUIX>
+      <item>
+       <PNAME>GIVEN_USR02</PNAME>
+       <PTYP>V</PTYP>
+       <PDESC>USR02 records</PDESC>
+       <PINDEX>0002</PINDEX>
+       <XMLREF_TYP>D</XMLREF_TYP>
+       <PSTRUC_TYP>T</PSTRUC_TYP>
+       <PREF_NAME>ZUNITTEST_USR02_TABLE</PREF_NAME>
+       <PDATLEN>0000</PDATLEN>
+       <PINTLEN>000000</PINTLEN>
+       <PDECIMALS>000000</PDECIMALS>
+       <SORT_LNR>0001</SORT_LNR>
+       <PREF_NAME2>ZUNITTEST_USR02_TABLE</PREF_NAME2>
+       <VALUE>&lt;INITIAL&gt;</VALUE>
+       <VAL_TYPE>T</VAL_TYPE>
+       <TAB_INDEX>0</TAB_INDEX>
+       <DEEP_STRU>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xml.sap.com/2003/05/eCATT/ddic" version="1.0">
+         <xsd:complexType name="ZUNITTEST_USR02_TABLE">
+          <annotation>
+           <documentation>I==O==C=T=K==D=ZUNITTEST_USR02_TABLE=A=h=L=000000=doc=Table of USR02 records for unittests with necessary fields</documentation>
+          </annotation>
+          <sequence>
+           <element name="item" type="ZUNITTEST_USR02_STRUCT" minOccurs="0" maxOccurs="unbounded"/>
+          </sequence>
+         </xsd:complexType>
+         <xsd:complexType name="ZUNITTEST_USR02_STRUCT">
+          <annotation>
+           <documentation>I==O==C=S=K==D=ZUNITTEST_USR02_STRUCT=A=u=L=000000=doc=Struc</documentation>
+          </annotation>
+          <sequence>
+           <element name="BNAME" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=XUBNAME=A=C=L=000012=doc=User Name in User Mas</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="12"/>
+             </restriction>
+            </simpleType>
+           </element>
+          </sequence>
+         </xsd:complexType>
+        </xsd:schema>
+       </DEEP_STRU>
+       <DEEP_DATA>
+        <ddic:ZUNITTEST_USR02_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic" empty="true">
+         <item>
+          <BNAME/>
+         </item>
+        </ddic:ZUNITTEST_USR02_TABLE>
+       </DEEP_DATA>
+      </item>
+      <item>
+       <PNAME>GIVEN_USR21</PNAME>
+       <PTYP>V</PTYP>
+       <PDESC>USR21 records</PDESC>
+       <PINDEX>0003</PINDEX>
+       <XMLREF_TYP>D</XMLREF_TYP>
+       <PSTRUC_TYP>T</PSTRUC_TYP>
+       <PREF_NAME>ZUNITTEST_USR21_TABLE</PREF_NAME>
+       <PDATLEN>0000</PDATLEN>
+       <PINTLEN>000000</PINTLEN>
+       <PDECIMALS>000000</PDECIMALS>
+       <SORT_LNR>0002</SORT_LNR>
+       <PREF_NAME2>ZUNITTEST_USR21_TABLE</PREF_NAME2>
+       <VALUE>&lt;INITIAL&gt;</VALUE>
+       <VAL_TYPE>T</VAL_TYPE>
+       <TAB_INDEX>0</TAB_INDEX>
+       <DEEP_STRU>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xml.sap.com/2003/05/eCATT/ddic" version="1.0">
+         <xsd:complexType name="ZUNITTEST_USR21_TABLE">
+          <annotation>
+           <documentation>I==O==C=T=K==D=ZUNITTEST_USR21_TABLE=A=h=L=000000=doc=Table of USR21 records for unittests with necessary fields</documentation>
+          </annotation>
+          <sequence>
+           <element name="item" type="ZUNITTEST_USR21_STRUCT" minOccurs="0" maxOccurs="unbounded"/>
+          </sequence>
+         </xsd:complexType>
+         <xsd:complexType name="ZUNITTEST_USR21_STRUCT">
+          <annotation>
+           <documentation>I==O==C=S=K==D=ZUNITTEST_USR21_STRUCT=A=u=L=000000=doc=Struc</documentation>
+          </annotation>
+          <sequence>
+           <element name="BNAME" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=XUBNAME=A=C=L=000012=doc=User Name in User Mas</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="12"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="PERSNUMBER" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_PERSNUM=A=C=L=000010=doc=Person number</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="10"/>
+             </restriction>
+            </simpleType>
+           </element>
+          </sequence>
+         </xsd:complexType>
+        </xsd:schema>
+       </DEEP_STRU>
+       <DEEP_DATA>
+        <ddic:ZUNITTEST_USR21_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic" empty="true">
+         <item>
+          <BNAME/>
+          <PERSNUMBER/>
+         </item>
+        </ddic:ZUNITTEST_USR21_TABLE>
+       </DEEP_DATA>
+      </item>
+      <item>
+       <PNAME>GIVEN_ADRP</PNAME>
+       <PTYP>V</PTYP>
+       <PDESC>ADRP records</PDESC>
+       <PINDEX>0001</PINDEX>
+       <XMLREF_TYP>D</XMLREF_TYP>
+       <PSTRUC_TYP>T</PSTRUC_TYP>
+       <PREF_NAME>ZUNITTEST_ADRP_TABLE</PREF_NAME>
+       <PDATLEN>0000</PDATLEN>
+       <PINTLEN>000000</PINTLEN>
+       <PDECIMALS>000000</PDECIMALS>
+       <SORT_LNR>0003</SORT_LNR>
+       <PREF_NAME2>ZUNITTEST_ADRP_TABLE</PREF_NAME2>
+       <VALUE>&lt;INITIAL&gt;</VALUE>
+       <VAL_TYPE>T</VAL_TYPE>
+       <TAB_INDEX>0</TAB_INDEX>
+       <DEEP_STRU>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xml.sap.com/2003/05/eCATT/ddic" version="1.0">
+         <xsd:complexType name="ZUNITTEST_ADRP_TABLE">
+          <annotation>
+           <documentation>I==O==C=T=K==D=ZUNITTEST_ADRP_TABLE=A=h=L=000000=doc=Table of ADRP records for unittests with necessary fields</documentation>
+          </annotation>
+          <sequence>
+           <element name="item" type="ZUNITTEST_ADRP_STRUCT" minOccurs="0" maxOccurs="unbounded"/>
+          </sequence>
+         </xsd:complexType>
+         <xsd:complexType name="ZUNITTEST_ADRP_STRUCT">
+          <annotation>
+           <documentation>I==O==C=S=K==D=ZUNITTEST_ADRP_STRUCT=A=u=L=000000=doc=Struct</documentation>
+          </annotation>
+          <sequence>
+           <element name="PERSNUMBER" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_PERSNUM=A=C=L=000010=doc=Person number</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="10"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="DATE_FROM" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_DATE_FR=A=D=L=000008=doc=Valid-from date -</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <pattern value="....-..-.."/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="DATE_TO" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_DATE_TO=A=D=L=000008=doc=Valid-to date in c</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <pattern value="....-..-.."/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="NAME_FIRST" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_NAMEFIR=A=C=L=000040=doc=First Name</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="40"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="NAME_LAST" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_NAMELAS=A=C=L=000040=doc=Last name</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="40"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="NAME_TEXT" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_NAMTEXT=A=C=L=000080=doc=Full Name of Perso</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="80"/>
+             </restriction>
+            </simpleType>
+           </element>
+          </sequence>
+         </xsd:complexType>
+        </xsd:schema>
+       </DEEP_STRU>
+       <DEEP_DATA>
+        <ddic:ZUNITTEST_ADRP_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic" empty="true">
+         <item>
+          <PERSNUMBER/>
+          <DATE_FROM/>
+          <DATE_TO/>
+          <NAME_FIRST/>
+          <NAME_LAST/>
+          <NAME_TEXT/>
+         </item>
+        </ddic:ZUNITTEST_ADRP_TABLE>
+       </DEEP_DATA>
+      </item>
+      <item>
+       <PNAME>THEN_USERLIST</PNAME>
+       <PTYP>V</PTYP>
+       <PDESC>User list result record</PDESC>
+       <PINDEX>0004</PINDEX>
+       <XMLREF_TYP>D</XMLREF_TYP>
+       <PSTRUC_TYP>T</PSTRUC_TYP>
+       <PREF_NAME>ZUNITTEST_USERLIST_TABLE</PREF_NAME>
+       <PDATLEN>0000</PDATLEN>
+       <PINTLEN>000000</PINTLEN>
+       <PDECIMALS>000000</PDECIMALS>
+       <SORT_LNR>0004</SORT_LNR>
+       <PREF_NAME2>ZUNITTEST_USERLIST_TABLE</PREF_NAME2>
+       <VALUE>&lt;INITIAL&gt;</VALUE>
+       <VAL_TYPE>T</VAL_TYPE>
+       <TAB_INDEX>0</TAB_INDEX>
+       <DEEP_STRU>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xml.sap.com/2003/05/eCATT/ddic" version="1.0">
+         <xsd:complexType name="ZUNITTEST_USERLIST_TABLE">
+          <annotation>
+           <documentation>I==O==C=T=K==D=ZUNITTEST_USERLIST_TABLE=A=h=L=000000=doc=Table of result of user list unit test</documentation>
+          </annotation>
+          <sequence>
+           <element name="item" type="ZUNITTEST_USERLIST_STRUCT" minOccurs="0" maxOccurs="unbounded"/>
+          </sequence>
+         </xsd:complexType>
+         <xsd:complexType name="ZUNITTEST_USERLIST_STRUCT">
+          <annotation>
+           <documentation>I==O==C=S=K==D=ZUNITTEST_USERLIST_STRUCT=A=u=L=000000=doc=Re</documentation>
+          </annotation>
+          <sequence>
+           <element name="USERNAME" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=XUBNAME=A=C=L=000012=doc=User Name in User Mas</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="12"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="FIRSTNAME" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_NAMEFIR=A=C=L=000040=doc=First Name</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="40"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="LASTNAME" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_NAMELAS=A=C=L=000040=doc=Last name</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="40"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="FULLNAME" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=AD_NAMTEXT=A=C=L=000080=doc=Full Name of Perso</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="80"/>
+             </restriction>
+            </simpleType>
+           </element>
+           <element name="SHORT_NAME" minOccurs="0">
+            <annotation>
+             <documentation>I==O==C==K==D=BU_BEZ20=A=C=L=000020=doc=Short name</documentation>
+            </annotation>
+            <simpleType>
+             <restriction base="string">
+              <maxLength value="20"/>
+             </restriction>
+            </simpleType>
+           </element>
+          </sequence>
+         </xsd:complexType>
+        </xsd:schema>
+       </DEEP_STRU>
+       <DEEP_DATA>
+        <ddic:ZUNITTEST_USERLIST_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic" empty="true">
+         <item>
+          <USERNAME/>
+          <FIRSTNAME/>
+          <LASTNAME/>
+          <FULLNAME/>
+          <SHORT_NAME/>
+         </item>
+        </ddic:ZUNITTEST_USERLIST_TABLE>
+       </DEEP_DATA>
+      </item>
+     </ETPAR_GUIX>
+     <ETPAR_VARI>
+      <item>
+       <VAR_NAME>ALL_FILLED</VAR_NAME>
+       <VAR_DESC>All fields and tables filled</VAR_DESC>
+       <VINDEX>0001</VINDEX>
+       <SORTLNR>000002</SORTLNR>
+       <PAR_VALUES>
+        <item>
+         <PNAME>GIVEN_USR02</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0002</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USR02_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <BNAME>IVANOVII</BNAME>
+           </item>
+          </ddic:ZUNITTEST_USR02_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>GIVEN_USR21</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0003</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USR21_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <BNAME>IVANOVII</BNAME>
+            <PERSNUMBER>1</PERSNUMBER>
+           </item>
+          </ddic:ZUNITTEST_USR21_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>GIVEN_ADRP</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0001</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_ADRP_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <PERSNUMBER>1</PERSNUMBER>
+            <DATE_FROM>01.01.1000</DATE_FROM>
+            <DATE_TO>31.12.9999</DATE_TO>
+            <NAME_FIRST>Иван</NAME_FIRST>
+            <NAME_LAST>Иванов</NAME_LAST>
+            <NAME_TEXT>Иванов Иван Иванович</NAME_TEXT>
+           </item>
+          </ddic:ZUNITTEST_ADRP_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>THEN_USERLIST</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0004</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USERLIST_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <USERNAME>IVANOVII</USERNAME>
+            <FIRSTNAME>Иван</FIRSTNAME>
+            <LASTNAME>Иванов</LASTNAME>
+            <FULLNAME>Иванов Иван Иванович</FULLNAME>
+            <SHORT_NAME>Иванов И.</SHORT_NAME>
+           </item>
+          </ddic:ZUNITTEST_USERLIST_TABLE>
+         </DEEP_DATA>
+        </item>
+       </PAR_VALUES>
+      </item>
+      <item>
+       <VAR_NAME>ONLY_LAST_NAME</VAR_NAME>
+       <VAR_DESC>Only last name filled</VAR_DESC>
+       <VINDEX>0004</VINDEX>
+       <SORTLNR>000003</SORTLNR>
+       <PAR_VALUES>
+        <item>
+         <PNAME>GIVEN_USR02</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0002</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USR02_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <BNAME>PETROVPP</BNAME>
+           </item>
+          </ddic:ZUNITTEST_USR02_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>GIVEN_USR21</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0003</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USR21_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <BNAME>PETROVPP</BNAME>
+            <PERSNUMBER>2</PERSNUMBER>
+           </item>
+          </ddic:ZUNITTEST_USR21_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>GIVEN_ADRP</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0001</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_ADRP_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <PERSNUMBER>2</PERSNUMBER>
+            <NAME_LAST>Петров</NAME_LAST>
+            <NAME_TEXT>Петров</NAME_TEXT>
+           </item>
+          </ddic:ZUNITTEST_ADRP_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>THEN_USERLIST</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0004</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USERLIST_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <USERNAME>PETROVPP</USERNAME>
+            <LASTNAME>Петров</LASTNAME>
+            <FULLNAME>Петров</FULLNAME>
+            <SHORT_NAME>Петров</SHORT_NAME>
+           </item>
+          </ddic:ZUNITTEST_USERLIST_TABLE>
+         </DEEP_DATA>
+        </item>
+       </PAR_VALUES>
+      </item>
+      <item>
+       <VAR_NAME>HAS_NO_ADRP</VAR_NAME>
+       <VAR_DESC>No adrp record at all</VAR_DESC>
+       <VINDEX>0003</VINDEX>
+       <SORTLNR>000004</SORTLNR>
+       <PAR_VALUES>
+        <item>
+         <PNAME>GIVEN_USR02</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0002</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USR02_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <BNAME>SIDOROVSS</BNAME>
+           </item>
+          </ddic:ZUNITTEST_USR02_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>GIVEN_USR21</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0003</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USR21_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <BNAME>SIDOROVSS</BNAME>
+           </item>
+          </ddic:ZUNITTEST_USR21_TABLE>
+         </DEEP_DATA>
+        </item>
+        <item>
+         <PNAME>THEN_USERLIST</PNAME>
+         <PTYP>V</PTYP>
+         <PINDEX>0004</PINDEX>
+         <VALUE>&lt;VALUE&gt;</VALUE>
+         <VAL_TYPE>X</VAL_TYPE>
+         <DEEP_DATA>
+          <ddic:ZUNITTEST_USERLIST_TABLE xmlns:ddic="http://xml.sap.com/2003/05/eCATT/ddic">
+           <item>
+            <USERNAME>SIDOROVSS</USERNAME>
+           </item>
+          </ddic:ZUNITTEST_USERLIST_TABLE>
+         </DEEP_DATA>
+        </item>
+       </PAR_VALUES>
+      </item>
+     </ETPAR_VARI>
+    </PARAMETERS>
+    <VARIANT_MODE>
+     <ETVAR_EXT>
+      <VAR_EXT_PATH></VAR_EXT_PATH>
+     </ETVAR_EXT>
+    </VARIANT_MODE>
+   </ECTD>
+  </VERSION>
+ </VERSIONS>
+</abapGit>
