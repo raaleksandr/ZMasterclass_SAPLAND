@@ -1,11 +1,11 @@
 # Online master class of sapland on unit tests 22.04.2021
-Here are the examples for master class.
-
-Master class URL:
+Here are the examples for master class.  
+  
+Master class URL:  
 https://edu.sapland.ru/master-classes/vesennyaya-sessiya-master-klassov-sapland-2021/vperyed-v-budushchee-s-abap/
 
 ## Dependencies
-Mockup loader for some examples - https://github.com/sbcgua/mockup_loader
+Mockup loader for some examples - https://github.com/sbcgua/mockup_loader  
 MockA for some examples - https://github.com/uweku/mockA
 
 ## SAP Version Requirements (by packages)
