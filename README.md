@@ -4,6 +4,9 @@ Here are the examples for master class.
 Master class URL:  
 https://edu.sapland.ru/master-classes/vesennyaya-sessiya-master-klassov-sapland-2021/vperyed-v-budushchee-s-abap/
 
+## How to intall
+With abap git
+
 ## Dependencies
 Mockup loader for some examples - https://github.com/sbcgua/mockup_loader  
 MockA for some examples - https://github.com/uweku/mockA
