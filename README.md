@@ -1,4 +1,4 @@
-# Online master class of sapland on unit tests 22.04.2021
+# Online master class of sapland on unit tests
 Here are the examples for master class.  
   
 Master class URL:  
