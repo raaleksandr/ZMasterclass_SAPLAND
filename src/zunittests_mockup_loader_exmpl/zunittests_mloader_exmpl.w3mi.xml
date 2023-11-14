@@ -6,20 +6,14 @@
    <TEXT>Unittests masterclass mockup loader example</TEXT>
    <PARAMS>
     <WWWPARAMS>
-     <RELID>MI</RELID>
-     <OBJID>ZUNITTESTS_MLOADER_EXMPL</OBJID>
      <NAME>fileextension</NAME>
      <VALUE>.zip</VALUE>
     </WWWPARAMS>
     <WWWPARAMS>
-     <RELID>MI</RELID>
-     <OBJID>ZUNITTESTS_MLOADER_EXMPL</OBJID>
      <NAME>filename</NAME>
      <VALUE>~wwwtmp.zip</VALUE>
     </WWWPARAMS>
     <WWWPARAMS>
-     <RELID>MI</RELID>
-     <OBJID>ZUNITTESTS_MLOADER_EXMPL</OBJID>
      <NAME>mimetype</NAME>
      <VALUE>Zip</VALUE>
     </WWWPARAMS>
