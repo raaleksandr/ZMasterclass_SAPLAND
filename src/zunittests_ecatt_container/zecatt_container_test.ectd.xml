@@ -415,7 +415,7 @@
        <VAR_NAME>ALL_FILLED</VAR_NAME>
        <VAR_DESC>All fields and tables filled</VAR_DESC>
        <VINDEX>0001</VINDEX>
-       <SORTLNR>000002</SORTLNR>
+       <SORTLNR></SORTLNR>
        <PAR_VALUES>
         <item>
          <PNAME>GIVEN_USR02</PNAME>
@@ -489,7 +489,7 @@
        <VAR_NAME>ONLY_LAST_NAME</VAR_NAME>
        <VAR_DESC>Only last name filled</VAR_DESC>
        <VINDEX>0004</VINDEX>
-       <SORTLNR>000003</SORTLNR>
+       <SORTLNR></SORTLNR>
        <PAR_VALUES>
         <item>
          <PNAME>GIVEN_USR02</PNAME>
@@ -559,7 +559,7 @@
        <VAR_NAME>HAS_NO_ADRP</VAR_NAME>
        <VAR_DESC>No adrp record at all</VAR_DESC>
        <VINDEX>0003</VINDEX>
-       <SORTLNR>000004</SORTLNR>
+       <SORTLNR></SORTLNR>
        <PAR_VALUES>
         <item>
          <PNAME>GIVEN_USR02</PNAME>
@@ -608,9 +608,7 @@
      </ETPAR_VARI>
     </PARAMETERS>
     <VARIANT_MODE>
-     <ETVAR_EXT>
-      <VAR_EXT_PATH></VAR_EXT_PATH>
-     </ETVAR_EXT>
+     <ETVAR_EXT></ETVAR_EXT>
     </VARIANT_MODE>
    </ECTD>
   </VERSION>

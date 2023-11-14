@@ -197,7 +197,7 @@
        <VAR_NAME>VARIANT1</VAR_NAME>
        <VAR_DESC>Вариант 1</VAR_DESC>
        <VINDEX>0002</VINDEX>
-       <SORTLNR>000002</SORTLNR>
+       <SORTLNR></SORTLNR>
        <PAR_VALUES>
         <item>
          <PNAME>DOC_ID</PNAME>
@@ -237,9 +237,7 @@
      </ETPAR_VARI>
     </PARAMETERS>
     <VARIANT_MODE>
-     <ETVAR_EXT>
-      <VAR_EXT_PATH></VAR_EXT_PATH>
-     </ETVAR_EXT>
+     <ETVAR_EXT></ETVAR_EXT>
     </VARIANT_MODE>
    </ECTD>
   </VERSION>

@@ -1,0 +1,2 @@
+sap.ui.define(["zdepartmentsfioriel/test/unit/common/ZInputChecker"]);                                                                                                                                                                                         
+//# sourceMappingURL=allTests.js.map                                                                                                                                                                                                                           
