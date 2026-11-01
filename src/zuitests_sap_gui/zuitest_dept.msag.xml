@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZUITEST_DEPT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Departments (SAP GUI) messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No departments found for the selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Select exactly one row</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Department ID is required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Department &amp;1 already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Department &amp;1 created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Department &amp;1 changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Department &amp;1 deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Department &amp;1 no longer exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Database error, changes were rolled back</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Delete department &amp;1?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZUITEST_DEPT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Invalid save mode &amp;1</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
